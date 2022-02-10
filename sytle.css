@@ -1,0 +1,357 @@
+body {
+  background-color: grey;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.navbar i {
+    display:flex;
+  font-size: 35px;
+}
+.navbar i:hover{
+    color: rgb(98, 96, 124);
+}
+.rightbar i{
+    font-size:20px;
+}
+
+.navbar {
+  height: 4em;
+  background-color: #161b22;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbar input,button{
+    border: 2px solid #363B42;
+}
+input {
+  background-color: #161b22;
+  outline: none;
+  border-width: 1px;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  width: 209px;
+}
+.navbar button {
+  position: absolute;
+  background-color: #161b22;
+  color: white;
+  outline: none;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 19px;
+  height: 19px;
+  text-align: end;
+  margin-left: 180px;
+  vertical-align: center;
+  /* display: flex; */
+  justify-content: end;
+}
+.search i {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  text-align: center;
+  color: #acafb4;
+}
+.navbar div {
+  color: white;
+  padding-top: 5px;
+  padding-left: 30px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+}
+.leftbar {
+  display: flex;
+  flex-direction: row;
+}
+.rightbar {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  justify-content: end;
+}
+.wholebody {
+  display: flex;
+  height: 1000px;
+}
+.leftnav {
+  width: 18%;
+  background-color: #0D1117;
+  border-right: 1px solid #21262d;
+}
+.center {
+  width: 82%;
+    display: flex;
+  height: auto;
+  background-color: #010409;
+}
+.repositories {
+  margin-top: 50px;
+  color: aliceblue;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size:15px
+}
+
+.repositories button {
+    display: flex;
+  width: 50px;
+  height: 30px;
+ align-self: center;
+
+}
+.bar {
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+
+}
+.repb{
+    display: flex;
+    justify-content: center;
+
+}
+.repb i
+{
+    display: flex;
+    margin-right: 3px;
+    justify-content: center;
+}
+.repb button{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #238636;
+    outline: none;
+    border:none;
+    border-radius:5px;
+    color: white;
+    width:60px;
+}
+.learnbutton button:hover{
+    background-color:#63b172;
+    transition: 0.3s;
+}
+.searchcontainer{
+    display: flex;
+}
+.searchcontainer input{
+    flex-grow: 1;
+    border: 1px solid #363B42;
+    border-radius:9px;
+    background-color: #21262D;
+    
+}
+.user{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid #1f252e;
+    padding-bottom: 20px;
+  
+
+}
+.user img{
+    display: flex;
+    object-fit:scale-down;
+    width:15px;
+}
+
+.user a{
+    margin-left: 10px;
+    color: white;
+    font-weight: lighter;
+    font-size:12px
+    
+}
+.userinfo{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top:10px;
+}
+.Recentactivity p{
+    margin-top:0px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.Recentactivity h5{
+    margin-top:10px;
+    margin-bottom:10px
+}
+.center1{
+    width:66%;
+    /* background-color: aqua; */
+    color:white;
+    height:700px;
+    padding-left: 40px;
+    margin-top: 30px;
+    
+    /* padding-left: 50px; */
+}
+.center2{
+width: 34%;
+height: 700px;
+/* background-color:black; */
+color:aliceblue ;
+
+}
+.learn
+{  
+    display: flex;
+    border: 1px solid #30363D;
+    padding:10px;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-left: 20px;
+    height: 24%;
+    background-image: linear-gradient(to right bottom, #09182e, #0a1728, #0a1522, #0b131c, #0c1116);
+}
+.learn :hover{
+    /* background-color:#238636; */
+    border-radius: 30px;
+    transition: 0.9s;
+
+}
+.learnbutton{
+    display: flex;
+    color: white;
+   
+}
+.learnbutton button{
+    width: 110%;
+    height:125%;
+    background-color: #2EA043;
+    color:white;
+    outline: none;
+    border:none;
+    border-radius:5px;  
+    font-weight: bold;
+}
+.learnbutton .greybut{
+    margin-left:19px ;
+    border: 1px solid #30363D;
+    background-color:#21262D;
+}
+.Repcontainer{
+    display:flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 200px;
+    
+}
+.repitem{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #30363D;
+}
+.repitem p{
+    font-size:10px
+}
+.activity{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:100%;
+    padding-right: 20px;
+    
+    /* background-color:brown; */
+}
+.activity img{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+}
+.profileinfo{
+    display: flex;
+    position: absolute;
+    /* background-color:blue ; */
+}
+.profileinfo div{
+    display: flex;
+    align-items: center
+}
+.botif{
+    margin-top: 60px;
+    margin-bottom:20px;
+    margin-left:30px;
+    padding-top:5px;
+    width:95%;
+    height: 100%;
+    /* background-color:rebeccapurple; */
+    border-radius: 20px;
+    margin-right:100px;
+    border:2px solid #21262d;
+
+}
+.botifbox{
+    display: flex;
+    /* align-items:center; */
+  
+    margin-left:1.5%;
+    margin-right:20%;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+.boxbotif{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* position: absolute; */
+
+}
+.boxbotif{
+    position: absolute;
+}
+.boxinfo{
+    /* background-color: aquamarine; */
+ height: 40px;
+ color: gray;
+ margin-top:35px;
+ margin-left:40px;
+ display: flex;
+ font-size:10px;
+    
+}
+.follow
+{ display: flex;
+   flex-wrap:nowrap;
+    justify-content: center;
+    /* margin-left:490%; */
+    margin-top: 20px;
+    
+    
+ 
+}
+.follow button{
+    background-color:#30363D;
+    height: 30px;
+    width: 60px;
+    border:1px solid;
+    border-color: #3f4853;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight:bold;
+    justify-content: end;
+    margin-left: 750px;
+}
